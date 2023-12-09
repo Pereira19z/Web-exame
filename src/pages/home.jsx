@@ -1,4 +1,5 @@
 import Menu from '../Componentes/menu'
+import React from 'react'
 
 export default ()=>{
     return(
@@ -9,7 +10,12 @@ export default ()=>{
         <hr/>
         <h1>HOME</h1>
 
-        <p>Este site eh sobre saude mental ,confira os conteudo na pagina saude ,na pagina sobre conheça o desenvolvedor desse site,na pagina contato coloque seus dados e pesquise seu Cep </p>
+        <p>A importação de veículos no Brasil envolve um processo complexo e regulamentado, sujeito a diversas normas e procedimentos estabelecidos pelos órgãos governamentais. Abaixo, destaco alguns pontos-chave relacionados à importação de veículos no Brasil</p>
         </>
+        <br></br>
+
+
+        </>
+
     )
 }

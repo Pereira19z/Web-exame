@@ -2,7 +2,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import React, { useState } from 'react';
-import Saude from './pages/saude';
+import Informacoes from './pages/informacoes';
 import { Container,Button,lightTheme,darkTheme } from './Estilos/Estilo';
 import { ThemeProvider } from 'styled-components';
 import Cep from './pages/cep';
@@ -15,7 +15,7 @@ function App() {
   return (
     <>
     <ThemeProvider theme={theme ==='light' ? lightTheme : darkTheme}>
-     <h1>Saude Mental</h1>
+     <h1>Carros importados no brasil</h1>
     <Button onClick={mudarTheme}>BOTÃO</Button>
     <hr/>
     <Container>
@@ -23,7 +23,7 @@ function App() {
                     <Routes>
                           <Route path='/' element={<Home />} />
                           <Route path='/sobre' element={<Sobre />} />
-                          <Route path='/saude' element={<Saude />} />
+                          <Route path='/informacoes' element={<Informacoes />} />
                           <Route path='/cep' element={<Cep />} />
                     </Routes>
                   </BrowserRouter>

@@ -1,14 +1,14 @@
 import styled from "styled-components";
 export const lightTheme = {
-    corFundo: '#D4DCEF',
+    corFundo: '#9198ff',
     corTexto: '#000000',
-    corTitulo: '#3EC7ED'
+    corTitulo: '#000000'
 }
 
 export const darkTheme = {
-    corFundo: '#2a0a0a',
+    corFundo: '#ff0000',
     corTexto: 'white',
-    corTitulo: '#fffdd0'
+    corTitulo: '#fff200'
 }
 
 // Criando uma div
@@ -20,13 +20,13 @@ export const Container = styled.div`
 export const Button = styled.button`
     padding: 10px;
     border: none;
-    background-color: #5A71F0;
+    background-color: #0026ff;
     color: white;
     margin: 10px;
 `
 // Criando um título
 export const TitlePage = styled.h1`
-    color: #E2D7ED;
+    color: #000000;
     font-size: 20px;
 `
 export const InformacoesCep = styled.div`

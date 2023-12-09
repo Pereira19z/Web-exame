@@ -1,6 +1,6 @@
 function menu() {
     const menu = {
-        background: '#3EC7ED',
+        background: '#000000',
         display: 'flex',
         justifyContent: 'center'
     }
@@ -8,7 +8,7 @@ function menu() {
         display: 'inlineBlock',
         textDecoration: 'none',
         padding: '20px',
-        color: '#fff',
+        color: '#ff0000',
         fontSize: '15px'
     }
     return (
@@ -16,9 +16,9 @@ function menu() {
             <nav style={menu}>
                 <ul style={{ display: 'flex', listStyle: 'none' }}>
                     <li><a href="/" style={link}>HOME</a>  </li>
-                    <li><a href="/saude" style={link}>SAUDE</a>  </li>
+                    <li><a href="/informacoes" style={link}>INFORMAÇÕES</a>  </li>
                     <li><a href="/sobre"style={link} >SOBRE</a>  </li>
-                    <li><a href="/cep"style={link} >CONTATO</a>  </li>
+                    <li><a href="/cep"style={link} >CEP</a>  </li>
                 </ul>
             </nav>
         </>
